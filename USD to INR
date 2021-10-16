@@ -1,0 +1,26 @@
+// Conver USD to INR
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    const double inr_per_usd{74.19};
+    
+    cout<<"Welcome to USD to INR converter"<< endl;
+    cout<<"Enter the value in USD:";
+    
+    double usd{0.0};
+    double rupee{0.0};
+    
+    cin>>usd;
+    rupee = usd*inr_per_usd;
+    
+    cout<< usd << " USD is equivalent to "<<rupee<<"Rupees"<<endl;
+    cout<<endl;
+    
+    
+  return 0;    
+  
+}
